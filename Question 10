@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    double tanksize = 15; // number of gallons in tank
+    double milesdriven = 375; // miles driven before gas runs out
+    
+    double distance = milesdriven/tanksize;
+    
+    cout << "total distance driven before gas runs out is " << distance << endl;
+    return 0;
+}
