@@ -8,6 +8,6 @@ int main()
     
     double distance = milesdriven/tanksize;
     
-    cout << "total distance driven before gas runs out is " << distance << endl;
+    cout << "total distance driven before gas runs out is " << distance << " miles" << endl;
     return 0;
 }
